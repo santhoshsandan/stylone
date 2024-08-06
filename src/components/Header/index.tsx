@@ -55,7 +55,7 @@ const Header = () => {
                   } `}
               >
                 <Image
-                  src="/images/logo1.jpg"
+                  src="/images/logo1.png"
                   alt="logo"
                   width={60}  // Decrease the width
                   height={15}  // Decrease the height
