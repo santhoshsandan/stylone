@@ -15,8 +15,8 @@ const Footer = () => {
                     src="/images/logo1.png"
                     alt="logo"
                     className="w-full "
-                    width={140}
-                    height={30}
+                    width={50}
+                    height={50}
                   />
                  <h2 className=" text-lg font-bold">Styrone</h2>
                 </Link>
@@ -208,7 +208,7 @@ const Footer = () => {
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
-           <p className="text-center text-base text-body-color dark:text-white">
+{/*            <p className="text-center text-base text-body-color dark:text-white">
               Template by{" "}
               <a
                 href="http://uideck.com"
@@ -227,7 +227,7 @@ const Footer = () => {
               >
                 
               </a>
-            </p>
+            </p> */}
           </div>
         </div>
         <div className="absolute right-0 top-14 z-[-1]">
