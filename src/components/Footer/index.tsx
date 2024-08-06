@@ -208,7 +208,26 @@ const Footer = () => {
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
-          
+           <p className="text-center text-base text-body-color dark:text-white">
+              Template by{" "}
+              <a
+                href="http://uideck.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-primary"
+              >
+                Styrone
+              </a>{" "}
+              and{" "}
+              <a
+                href="https://nextjstemplates.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-primary"
+              >
+                
+              </a>
+            </p>
           </div>
         </div>
         <div className="absolute right-0 top-14 z-[-1]">
