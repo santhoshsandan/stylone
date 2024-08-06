@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Inter", sans-serif;
+  }
+}
+
+@layer components {
+  input[type="checkbox"]:checked ~ label span svg {
+    @apply inline-flex;
+  }
+
+  .sticky .header-logo {
+    @apply py-5 lg:py-2;
+  }
+
+  .sticky .menu-scroll.active {
+    @apply opacity-70;
+  }
+
+  input#togglePlan:checked ~ .dot {
+    @apply translate-x-full;
+  }
+
+  input#checkboxLabel:checked ~ .box span {
+    @apply opacity-100;
+  }
+}
+.navContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.navTable {
+  width: 100%;
+}
+
+.curve1, .curve2 {
+  display: none; /* Hide these for now, unless needed */
+}
+
+.curveFill {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.navLink {
+  display: block;
+  padding: 10px 20px;
+  margin: 0 10px; /* Add space between links */
+  text-decoration: none;
+  color: #000; /* Change as needed */
+  font-size: 16px; /* Adjust size as needed */
+}
+
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column; /* Stack links vertically on small screens */
+  }
+
+  .navLink {
+    margin: 10px 0; /* Space between links on mobile */
+  }
+}
+.section {
+  padding: 100px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col-lg-6,.col-md-6,.col-sm-12 {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.img1 {
+  margin-right: 20px;
+}
+
+.justified-cell {
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+ .img1 {
+    margin-right: 0;
+  }
+ .justified-cell {
+    text-align: left;
+  }
+}
+
+@media (max-width: 480px) {
+ .container {
+    padding: 0 10px;
+  }
+ .img1 {
+    width: 100%;
+    height: auto;
+  }
+}
+.navContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkBox {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navLinks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.navLink {
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+.navLink:hover {
+  background-color: #ccc;
+}
+
+@media (max-width: 768px) {
+ .navLinks {
+    flex-direction: column;
+  }
+ .navLink {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+ .navLinks {
+    flex-direction: column;
+  }
+ .navLink {
+    margin: 5px 0;
+  }
+}
+.linkBox {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.linkBox > div {
+  flex-basis: 20%;
+  margin: 10px;
+}
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+p {
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 1.75rem;
+  color: #333;
+  font-weight: 400;
+}
+
+.dark p {
+  color: #fff;
+}
+
+.sm\:text-lg p {
+  font-size: 1.125rem;
+}
+
+.md\:text-xl p {
+  font-size: 1.25rem;
+}
