@@ -1,3 +1,5 @@
+//signup is also disabled because there is no requirement of signup for this site
+
 import Link from "next/link";
 
 import { Metadata } from "next";

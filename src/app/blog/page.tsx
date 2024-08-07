@@ -1,3 +1,5 @@
+//blog page title and descriotion is here to make any changes and there is an scrolling for multiple blogs can be edit here 
+
 import SingleBlog from "@/components/Blog/SingleBlog";
 import blogData from "@/components/Blog/blogData";
 import Breadcrumb from "@/components/Common/Breadcrumb";

@@ -1,3 +1,5 @@
+//it is an error page for styrone site
+
 import Link from "next/link";
 
 import { Metadata } from "next";

@@ -1,3 +1,6 @@
+//everything in the homepage is navigated from here like hero, features, video, brands, and contact are mentioned here
+//you can hide if you dont want anything on the home page here
+
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Blog from "@/components/Blog";

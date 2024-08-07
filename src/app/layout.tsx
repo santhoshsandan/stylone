@@ -1,3 +1,5 @@
+// there is navigation for header and footer from  this site
+
 "use client";
 
 import Footer from "@/components/Footer";
