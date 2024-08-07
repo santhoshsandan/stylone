@@ -55,12 +55,12 @@ const Header = () => {
                   } `}
               >
                 <Image
-                  src="/images/logo1.png"
-                  alt="logo"
-                  width={60}  // Decrease the width
-                  height={15}  // Decrease the height
-                  className="w-auto  "
-                />
+      src="/images/logo1.png"
+      alt="logo"
+      width={70}  // Increased width
+      height={25}  // Increased height
+       // Adjust the margin as needed
+    />
                 <h2 className=" text-lg font-bold">Styrone</h2>
 
               </Link>

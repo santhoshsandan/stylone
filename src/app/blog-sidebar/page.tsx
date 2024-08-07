@@ -12,8 +12,8 @@ import { Brand } from "@/types/brand";
 import brandsData from "@/components/Brands/brandsData";
 
 export const metadata: Metadata = {
-  title: "Blog Details Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Blog Details Page for Startup Nextjs Template",
+  title: "Styrone",
+  description: "Services",
   // other metadata
 };
 

@@ -6,7 +6,7 @@ const blogData: Blog[] = [
     title: "Ghirardelli",
     paragraph:
       "Support JDE.Modified sales order, reports. Modified C BSFNs. CNC support. Server Administration.",
-    image: "/images/blog/blog-01.jpg",
+    image: "/images/blog/download.jpeg",
     author: {
       name: "Samuyl Joshi",
       image: "/images/blog/author-01.png",
@@ -20,7 +20,7 @@ const blogData: Blog[] = [
     title: "TSYS",
     paragraph:
       "Modify sales order to include credit card processing. Server and CNC administration.",
-    image: "/images/blog/blog-02.jpg",
+    image: "/images/blog/tsys.jpeg",
     author: {
       name: "Musharof Chy",
       image: "/images/blog/author-02.png",
@@ -48,7 +48,7 @@ const blogData: Blog[] = [
     title: "Dart Neurosciences.",
     paragraph:
       "Implement and support JDE. Upgrade to 9.1. CNC support..",
-    image: "/images/blog/blog-01.jpg",
+    image: "/images/blog/dart.png",
     author: {
       name: "Samuyl Joshi",
       image: "/images/blog/author-01.png",
@@ -62,7 +62,7 @@ const blogData: Blog[] = [
     title: "Carl Zeiss",
     paragraph:
       "EDI integration to SAP using XML.",
-    image: "/images/blog/blog-02.jpg",
+    image: "/images/blog/carl.jpeg",
     author: {
       name: "Musharof Chy",
       image: "/images/blog/author-02.png",
@@ -76,7 +76,7 @@ const blogData: Blog[] = [
     title: "lindt sprungli",
     paragraph:
       "Develop Weborder entry system for JDE and SAP using .net and realtime integration.",
-    image: "/images/blog/blog-03.jpg",
+    image: "/images/blog/lindt.jpeg",
     author: {
       name: "Lethium Deo",
       image: "/images/blog/author-03.png",

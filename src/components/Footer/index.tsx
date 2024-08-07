@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="/images/logo1.jpg"
+                    src="/images/logo1.png"
                     alt="logo"
                     className="w-full "
                     width={140}
@@ -208,7 +208,7 @@ const Footer = () => {
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
-            <p className="text-center text-base text-body-color dark:text-white">
+            {/* <p className="text-center text-base text-body-color dark:text-white">
               Template by{" "}
               <a
                 href="http://uideck.com"
@@ -227,7 +227,7 @@ const Footer = () => {
               >
                 Next.js Templates
               </a>
-            </p>
+            </p> */}
           </div>
         </div>
         <div className="absolute right-0 top-14 z-[-1]">
