@@ -15,8 +15,8 @@ const Footer = () => {
                     src="/images/logo1.png"
                     alt="logo"
                     className="w-full "
-                    width={140}
-                    height={30}
+                    width={50}
+                    height={50}
                   />
                  <h2 className=" text-lg font-bold">Styrone</h2>
                 </Link>
@@ -208,7 +208,11 @@ const Footer = () => {
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
+<<<<<<< HEAD
             {/* <p className="text-center text-base text-body-color dark:text-white">
+=======
+{/*            <p className="text-center text-base text-body-color dark:text-white">
+>>>>>>> 9bee9976eb6905ab65aec4bcb37d4b5b94e36096
               Template by{" "}
               <a
                 href="http://uideck.com"
@@ -216,7 +220,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-                UIdeck
+                Styrone
               </a>{" "}
               and{" "}
               <a
@@ -225,7 +229,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-                Next.js Templates
+                
               </a>
             </p> */}
           </div>

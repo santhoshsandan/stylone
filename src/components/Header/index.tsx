@@ -55,12 +55,21 @@ const Header = () => {
                   } `}
               >
                 <Image
+<<<<<<< HEAD
       src="/images/logo1.png"
       alt="logo"
       width={70}  // Increased width
       height={25}  // Increased height
        // Adjust the margin as needed
     />
+=======
+                  src="/images/logo1.png"
+                  alt="logo"
+                  width={70}  // Increased width
+                  height={25}  // Decrease the height
+                 
+                />
+>>>>>>> 9bee9976eb6905ab65aec4bcb37d4b5b94e36096
                 <h2 className=" text-lg font-bold">Styrone</h2>
 
               </Link>
@@ -147,7 +156,7 @@ const Header = () => {
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <Link
-                  href="https://project.pruset.com/"
+                  href="https://project.pruset.com/login"
                   className="hidden px-7 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white md:block"
                 >
                   Customer Support
