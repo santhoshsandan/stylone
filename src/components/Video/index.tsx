@@ -54,7 +54,7 @@ const Video = () => {
         autoplay={true}
         start={true}
         isOpen={isOpen}
-        videoId="L61p2uyiMSo"
+        videoId="02YTx8mQk60"
         onClose={() => setOpen(false)}
       />
 
