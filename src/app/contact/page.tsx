@@ -13,14 +13,14 @@ export const metadata: Metadata = {
 
 const ContactPage = () => {
   return (
-    <>
+    <div className="pt-8">
       <Breadcrumb
         pageName="Contact Page"
         description="contact us for any queries"
       />
 
       <Contact />
-    </>
+    </div>
   );
 };
 

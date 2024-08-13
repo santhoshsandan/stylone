@@ -14,14 +14,14 @@ export const metadata: Metadata = {
 
 const AboutPage = () => {
   return (
-    <>
+    <div className="pt-8">  {/* Adjust the padding value as needed */}
       <Breadcrumb
         pageName="About"
         description="Styrone Inc is an ISO:9000 company in the Oracle Partner Network. We are a 10 year old organization that excels on:"
       />
       <AboutSectionOne />
       <AboutSectionTwo />
-    </>
+    </div>
   );
 };
 

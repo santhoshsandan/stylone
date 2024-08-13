@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 const Blog = () => {
   return (
-    <>
+    <div className="pt-8">
       <Breadcrumb
         pageName="We’ve Done Lot’s of Work, Let’s Check Some From Here"
         description="We have the best experts to elevate your business to the next level, try is and you will see! We have the best experts to elevate your"
@@ -94,7 +94,7 @@ const Blog = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 
