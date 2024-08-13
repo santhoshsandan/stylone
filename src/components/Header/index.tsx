@@ -60,7 +60,7 @@ const Header = () => {
                   alt="logo"
                   width={70}  // Increased width
                   height={25}  // Increased height
-                
+
                 />
 
                 <h2 className=" text-lg font-bold">Styrone</h2>
@@ -150,10 +150,11 @@ const Header = () => {
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <Link
                   href="https://project.pruset.com/login"
-                  className="hidden px-7 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white md:block"
+                  className="px-7 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white"
                 >
                   Customer Support
                 </Link>
+
 
                 <div>
                   <ThemeToggler />
